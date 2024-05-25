@@ -1,0 +1,65 @@
+html{
+    background-color: rgba(0, 0, 255, 0.616);
+    font-family: Marker Felt, fantasy;
+}
+
+#page{
+    display: flex;
+    flex-direction: row;
+}
+
+#carte{
+    background-color: white;
+    border: solid 5px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#page section:nth-child(1),
+#page section:nth-child(3){
+    width: 30%;
+}
+
+#carte #entete{
+    background-color: grey;
+    width: 100%;
+}
+
+img{
+    border-radius: 50%;
+    width: 80%;
+    display: block;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    border-top: solid;
+    border-color: black;
+}
+
+#info #photo,
+#info #info-in{
+    width: 50%;
+}
+
+#info #photo{
+    display: flex;
+    border-right: solid;
+    border-color: black;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    background-color: rgb(69, 74, 78);
+}
+
+#info-in {
+    padding-left: 100px;
+    background-color: grey;
+}
+
+#info-in h1{
+    font-size: 25px;
+}
