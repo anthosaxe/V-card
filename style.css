@@ -25,6 +25,9 @@ html{
 #carte #entete{
     background-color: grey;
     width: 100%;
+}
+
+#carte p{
     margin-left: 20px;
 }
 
